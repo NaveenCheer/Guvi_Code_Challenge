@@ -14,7 +14,9 @@ class PS
 		Integer n = sc.nextInt();
 		if(n>0)
 		System.out.println("Positive");
-		else
+		else if(n<0)
 		System.out.println("Negative");
+		else
+		System.out.println("Zero");
 	}
 }
